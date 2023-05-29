@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "二手商城",
+  "navigationBarBackgroundColor": "#ff5700",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "search-bar": "/components/SearchBar"
+  }
+}

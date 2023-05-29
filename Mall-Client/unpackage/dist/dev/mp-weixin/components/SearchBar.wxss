@@ -1,0 +1,18 @@
+.search_bar.data-v-6379d600 {
+  background-color: var(--themeColor);
+  height: 90rpx;
+  padding: 10rpx;
+}
+.search_bar navigator.data-v-6379d600 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #666;
+  border-radius: 15rpx;
+}
+.search_bar navigator icon.data-v-6379d600 {
+  padding: 5rpx;
+}
+

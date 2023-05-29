@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Search/Search",
+    "pages/category/category",
+    "pages/product_detail/product_detail",
+    "pages/my/my",
+    "pages/cart/cart",
+    "pages/pay/pay",
+    "pages/order/order",
+    "pages/audit/audit",
+    "pages/addProduct/addProduct"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#ff5700",
+    "borderStyle": "black",
+    "height": "92rpx",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/_home.png",
+        "selectedIconPath": "static/icons/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/icons/_category.png",
+        "selectedIconPath": "static/icons/category.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/addProduct/addProduct",
+        "iconPath": "static/icons/_tianjia.png",
+        "selectedIconPath": "static/icons/tianjia.png",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/icons/_cart.png",
+        "selectedIconPath": "static/icons/cart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icons/_my.png",
+        "selectedIconPath": "static/icons/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "onLocationChange",
+    "chooseAddress"
+  ],
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
